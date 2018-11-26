@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def call() {
+def call(String name = 'human') {
   sh "ls -al"
 }
