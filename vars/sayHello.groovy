@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def testing_method(Closure body) {
+def call(Closure body) {
   sh "ls -al"
   echo "--------"
   sh "pwd"
